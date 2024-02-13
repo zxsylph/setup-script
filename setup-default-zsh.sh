@@ -15,6 +15,6 @@ cd ~
 echo "" > .zshrc
 echo "" > .p10k.zsh
 
-curl -o .zshrc https://raw.githubusercontent.com/zxsylph/setup-script/main/temp-zshrc
+curl -o .zshrc "https://raw.githubusercontent.com/zxsylph/setup-script/main/temp-zshrc?$(date +%s)"
 
-curl -o .p10k.zsh https://raw.githubusercontent.com/zxsylph/setup-script/main/temp-p10k-zsh
+curl -o .p10k.zsh "https://raw.githubusercontent.com/zxsylph/setup-script/main/temp-p10k-zsh?$(date +%s)"
