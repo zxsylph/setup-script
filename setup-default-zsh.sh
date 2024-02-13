@@ -17,4 +17,4 @@ echo "" > .p10k.zsh
 
 curl -o .zshrc https://raw.githubusercontent.com/zxsylph/setup-script/main/temp-zshrc
 
-curl -0 .p10k.zsh https://raw.githubusercontent.com/zxsylph/setup-script/main/temp-p10k-zsh
+curl -o .p10k.zsh https://raw.githubusercontent.com/zxsylph/setup-script/main/temp-p10k-zsh
