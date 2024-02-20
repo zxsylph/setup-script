@@ -21,6 +21,6 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 Setup default zshrc
 ```bash
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/zxsylph/setup-script/main/setup-default-zsh.sh?$(date +%s))"
+sh -c "$(curl -fsSL \"https://raw.githubusercontent.com/zxsylph/setup-script/main/setup-default-zsh.sh?$(date +%s)\")"
 ```
 
