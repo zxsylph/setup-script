@@ -14,10 +14,10 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$
 
 mkdir -p ~/.local/share/fonts \
     && cd ~/.local/share/fonts \
-    && curl -fLO https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Regular.ttf \
-    && curl -fLO https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold.ttf \
-    && curl -fLO https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Italic.ttf \
-    && curl -fLO https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold%20Italic.ttf
+    && curl -fLO "https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS NF Regular.ttf" \
+    && curl -fLO "https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS NF Bold.ttf" \
+    && curl -fLO "https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS NF Italic.ttf" \
+    && curl -fLO "https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS NF Bold Italic.ttf"
 
 cd ~
 
